@@ -16,6 +16,13 @@ body {
 nav {
     background-color: var(--color_nav);
 }
+.navbar-center {
+    display: grid;
+    justify-content: center !important;
+}
+.navbar-right {
+    justify-content: end;
+}
 .colorTitulos {
     color: var(--color_titulos);
 }
@@ -80,11 +87,17 @@ nav {
     background-color: var(--color_nav);
 }
 .card-body {
-    background-color: var();
+    background-color: var(--color_fondo);
 }
 footer {
     margin: 0;
-
+}
+.footer-left {
+    padding-left: 12%;
+}
+.footer-right {
+    text-align: end;
+    padding-right: 12%;
 }
 
 /* LOGIN */

@@ -1,0 +1,98 @@
+:root {
+    /* --color_principal: #1ACBE9; */
+    --color_principal: #E1E5EA;
+    --color_nav: #525E75;
+    --color_fondo: #FAF3F3;
+    --color_btn: #78938A;
+    --color_hover: #92BA92; 
+    --color_cards: #92BA92;
+    --color_titulos: #3D5A73;
+    --color_textos: #4f7597;
+}
+
+body {
+    background-color: var(--color_fondo);
+}
+nav {
+    background-color: var(--color_nav);
+}
+.colorTitulos {
+    color: var(--color_titulos);
+}
+.colorTextos {
+    color: var(--color_textos);
+}
+.colorBoton,
+.colorIconos {
+    background-color: var(--color_btn);
+    border: #000000;
+    color: #000000 !important;
+}
+.colorBoton:hover {
+    background-color: var(--color_hover);
+}
+#inicio {
+    background-color: var(--color_principal);
+    height: 400px;
+
+    display: block;
+    text-align: center;
+
+    padding: 100px;
+
+    text-transform: uppercase;
+}
+#inicio p {
+    margin-top: 40px;
+
+    font-size: 20px;
+}
+#utilidades {
+    background-color: var(--color_principal);
+}
+.carta-utilidades {
+    height: 180px;
+    width: 70%;
+    margin: 20px auto;
+    /* padding: 20px; */
+
+    background-color: var(--color_cards);
+    border-radius: 30px;
+}
+.carta-utilidades h3{
+    padding: 10px 0;
+
+}
+.carta-utilidades p{
+    justify-content: center;
+    padding: 0 10px 10px 10px;
+}
+#planes {
+    background-color: var(--color_principal);
+    padding-top: 20px 0 0 0;
+    margin: 0;
+}
+.planes {
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.card-header {
+    background-color: var(--color_nav);
+}
+.card-body {
+    background-color: var();
+}
+footer {
+    margin: 0;
+
+}
+
+/* LOGIN */
+
+.login-cuadro {
+    margin-top: 10%;
+}
+.enlace{
+    color: val(--color_titulos) !important;
+    text-decoration: none;
+}

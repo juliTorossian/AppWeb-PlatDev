@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main class="container">
+
+    <section id="inicio">
+        <div >
+            <h1 class="colorTitulos">Above Premiere</h1>
+            <p class="colorTextos">El editor del pueblo</p>
+        </div>
+    </section>
+    <section id="utilidades">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <div class="row d-block carta-utilidades">
+                        <h3>Recortar Video</h3>
+                        <p class="colorTextos">Queres guardarte una seccion de tu video favorito?<br>Recortalo a tu gusto.</p>
+                    </div>
+                    <div class="row d-block carta-utilidades">
+                        <h3>Extraer Audio</h3>
+                        <p class="colorTextos">Tenes un video de una charla emblematica?<br>Extrae el audio y guardalo como .MP3</p>
+                    </div>
+                    <div class="row d-block carta-utilidades">
+                        <h3>Cambiar Formato</h3>
+                        <p class="colorTextos">Queres enviar un video pero por donde lo envias no soporta su extension?<br>Entoces cambiala por una aceptada.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row d-block carta-utilidades">
+                        <h3>Cambiar Resolucion</h3>
+                        <p class="colorTextos">Tenes un video que se ve muy mal?<br>Subile la resolucion con Above Premier</p>
+                    </div>
+                    <div class="row d-block carta-utilidades">
+                        <h3>Eliminar Audio</h3>
+                        <p class="colorTextos">En tu vacaciones filmaste un hermoso paisaje, pero el ruido de la ruta molesta?<br>Elimina el audio que quedate con el recuerdo.</p>
+                    </div>
+                    <div class="row d-block carta-utilidades">
+                        <h3>Extraer Imagenes</h3>
+                        <p class="colorTextos">Tenes una imagen perfecta... pero esta dentro de un video?<br>No pasa nada, obtene imagenes de el.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="planes">
+        <div class="container">
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h2 class="colorTitulos">Planes</h2>
+                <!-- <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p> -->
+            </div>
+
+            <div class="row text-center planes">
+                <div class="col-4">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Gratis</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$ 0<small class="text-muted fw-light">/mes</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                        <li class="colorTextos">Soporte por foros</li>
+                        <li class="colorTextos">Ultimas actualizaciones</li>
+                        </ul>
+                        <a type="button" asp-controller="Usuario" asp-action="CrearCuenta" class="w-100 btn btn-lg btn-outline-primary colorBoton">Crear cuenta gratis</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$ 0.99<small class="text-muted fw-light">/mes</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li class="colorTextos">Soporte via mail</li>
+                            <li class="colorTextos">Ultimas actualizaciones</li>
+                            <li class="colorTextos">Acceso a funcionalidades premium</li>
+                        </ul>
+                        <a type="button" asp-controller="Usuario" asp-action="CrearCuenta" class="w-100 btn btn-lg btn-primary colorBoton">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="reseñas">
+        <div class="container">
+
+        </div>
+    </section>
+
+</main>
